@@ -1,0 +1,54 @@
+package entities;
+
+public class Product {
+//Encapsulamento, o objeto nao deve expor nenhum atritubo, todos serão private
+//serão acessados por meios de getters e setters.
+	// Atributos
+	private String name;
+	private double price;
+	private int quantity;
+
+	/*Caso eu queira para um atributo seja atualizado, preciso criar um metodo para isso,
+	 * eles são acrescentados dps do contrutores*/
+	public Product() {
+
+	}
+	
+	public Product(String name, double price, int quantity) {
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	//pegar o valor, ao inves de ser void, ele retorna o valor do atritubo
+	public String getName() {
+		return this.name;
+	}
+	
+	//Aqui faço a atualização do atributo name
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double totalValueInStock() {
+		return price * quantity;
+	}
+
+	public void addProducts(int quantity) {
+		this.quantity += quantity;
+	}
+
+	public void removeProducts(int quantity) {
+		this.quantity -= quantity;
+	}
+
+	public String toString() {
+		return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ "
+				+ String.format("%.2f", totalValueInStock());
+	}
+}

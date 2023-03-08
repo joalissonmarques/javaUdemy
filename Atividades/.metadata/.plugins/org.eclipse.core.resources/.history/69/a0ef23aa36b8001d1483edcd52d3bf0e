@@ -1,0 +1,8 @@
+package application;
+
+public class Program {
+//Primeira versão
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package util;
+
+public class CurrencyConverter {
+	
+	public static final double IOF = 6.0;
+	
+	public static double currencyConverter(double value) {
+		return 0.0;
+	}
+}

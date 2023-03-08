@@ -1,0 +1,50 @@
+package entities;
+
+public class Account {
+	
+	//Atributos
+	private int numberAccount;
+	private String nameHolder;
+	private double balance;
+	
+	//Constructor 2 arguments
+	public Account(int number, String name){
+		this.numberAccount = number;
+		this.nameHolder = name;
+	}
+	
+	//Constructor Sobrecarga 3 arguments
+	public Account(int number, String name, double balance){
+		this.numberAccount = number;
+		this.nameHolder = name;
+		this.balance = balance;
+	}
+	
+	//Metodos get e set
+	public int getNumberAccount(){
+		return this.numberAccount;
+	}
+	
+	public String getNameHolder(){
+		return this.nameHolder;
+	}
+	
+	public void setNameHolder(String name){
+		this.nameHolder = name;
+	}
+	
+	public double getBalance(){
+		return this.balance;
+	}
+	
+	//Functions
+	public void deposit(double amount) {
+		this.balance += amount;
+	}
+	
+	public void withDraw(double amount) {
+		double rate = 5.00;
+		
+		this.balance -= amount + rate;
+	}
+}

@@ -1,0 +1,15 @@
+package entities;
+
+public class SignUpBank {
+	//Atributos
+	private int accountNumber;
+	private String nameClient;
+	private double deposit;
+	
+	//Constructor
+	public SignUpBank(int accountNumber, String nameClient) {
+		this.accountNumber = accountNumber;
+		this.nameClient = nameClient;
+	}
+	
+}

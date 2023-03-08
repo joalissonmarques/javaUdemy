@@ -1,0 +1,36 @@
+package entities;
+
+public class SignUpBank {
+	//Atributos
+	private int accountNumber;
+	private String nameClient;
+	private double valueMoney;
+	private double valueRate;
+	
+	//Constructor
+	public SignUpBank(int accountNumber, String nameClient) {
+		this.accountNumber = accountNumber;
+		this.nameClient = nameClient;
+	}
+	
+	//Numero da conta
+	public int getAccountNumber() {
+		return this.accountNumber;
+	}
+	
+	//Nome do Titular
+	public String getNameClient() {
+		return this.nameClient;
+	}
+	
+	//Alterar nome do Titular
+	public void setNameClient(String name) {
+		this.nameClient = name;
+	}
+	
+	//Saldo
+	public double getValueMoney() {
+		return this.valueMoney;
+	}
+		
+}

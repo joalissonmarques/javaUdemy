@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+D:\Estudos\JavaUdemy\Atividades\.metadata\.plugins\org.eclipse.jdt.core
+3441565434.index
+1502309246.index
+1865797976.index
+2519381991.index
+886714609.index
+2795017779.index
+1138557031.index
+254010973.index
+3078949458.index
+676063972.index
+3229760196.index
+1412124480.index
+3719927236.index
+2625681673.index
+2043735502.index
+2864620882.index
+590118870.index

@@ -1,0 +1,7 @@
+package entities;
+
+public class Product {
+//Encapsulamento, o objeto nao deve expor nenhum atritubo, todos serão private
+//serão acessados por meios de getters e setters.
+	
+}
